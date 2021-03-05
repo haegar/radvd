@@ -1,3 +1,12 @@
+radvd (1:2.19+git20201122+capport-0~sdinetI1) buster-backports; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream git snapshot
+  * Added custom RFC8910 Captive-Portal URL support.
+  * Removed debian/patches/ConditionPathExists, already applied upstream.
+
+ -- Sven-Haegar Koch <haegar@sdinet.de>  Fri, 05 Mar 2021 18:40:38 +0100
+
 radvd (1:2.18-3) unstable; urgency=medium
 
   [ Adilson dos Santos Dantas ]
