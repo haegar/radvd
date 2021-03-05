@@ -24,6 +24,7 @@ gram.h
 gram.dot
 install-sh
 missing
+.pc/
 radvd
 radvd.8
 radvd.conf.5
