@@ -1,0 +1,16 @@
+
+Origin: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=929357#32
+
+Upstreamed:  not yet
+
+
+--- a/radvd.service.in
++++ b/radvd.service.in
+@@ -6,6 +6,7 @@
+ Description=Router advertisement daemon for IPv6
+ Documentation=man:radvd(8)
+ After=network.target
++ConditionPathExists=/etc/radvd.conf
+ 
+ [Service]
+ Type=forking

@@ -1,0 +1,16 @@
+Index: b/configure.ac
+===================================================================
+--- a/configure.ac
++++ b/configure.ac
+@@ -117,9 +117,9 @@ AC_MSG_RESULT($PATH_RADVD_LOG)
+ dnl Check where to put the pidfile
+ AC_MSG_CHECKING(where to put pidfile)
+ AC_ARG_WITH(pidfile,
+-[  --with-pidfile          Path to the radvd pidfile [/var/run/radvd.pid]],
++[  --with-pidfile          Path to the radvd pidfile [/run/radvd.pid]],
+ 	PATH_RADVD_PID=$withval,
+-	PATH_RADVD_PID=/var/run/radvd.pid)
++	PATH_RADVD_PID=/run/radvd.pid)
+ AC_MSG_RESULT($PATH_RADVD_PID)
+ 
+ dnl Check where to put the configfile

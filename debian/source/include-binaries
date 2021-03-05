@@ -1,0 +1,8 @@
+
+# to avoid error `gpb buildpackage -uc -us`, to me it feels strange
+debian/upstream/signing-key.pgp
+
+# to avoid error `debuild -uc -us`, this also feels strange to me
+debian/upstream/signing-key.asc
+
+# l l
