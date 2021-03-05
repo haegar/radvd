@@ -27,9 +27,12 @@ missing
 radvd
 radvd.8
 radvd.conf.5
+radvd.service
 radvdump
 radvdump.8
 redhat/radvd.spec
+redhat/SysV/radvd.spec
+redhat/systemd/radvd.spec
 scanner.c
 scanner.h
 stamp-h1
