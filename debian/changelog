@@ -1,4 +1,4 @@
-radvd (1:2.19+git20201122+capport-0~sdinetI1) buster-backports; urgency=medium
+radvd (1:2.19+git20201122+capport+0~sdinetI1) buster-backports; urgency=medium
 
   * Non-maintainer upload.
   * New upstream git snapshot
@@ -6,7 +6,7 @@ radvd (1:2.19+git20201122+capport-0~sdinetI1) buster-backports; urgency=medium
   * Removed debian/patches/ConditionPathExists, already applied upstream.
   * Changed debian/source/format to "3.0 (native)"
 
- -- Sven-Haegar Koch <sven.koch@hoistgroup.com>  Mon, 08 Mar 2021 12:19:23 +0100
+ -- Sven-Haegar Koch <sven.koch@hoistgroup.com>  Mon, 08 Mar 2021 12:23:02 +0100
 
 radvd (1:2.18-3) unstable; urgency=medium
 
