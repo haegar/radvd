@@ -344,7 +344,8 @@ ifaceval	: T_MinRtrAdvInterval NUMBER ';'
 			size_t len = strlen(source);
 
 			if (iface->AdvCaptivePortalAPI) {
-				flog(LOG_WARNING, "warning: AdvCaptivePortalAPI specified twice for interface %s in %s, line %d", iface->props.name, filename, num_lines);
+				flog(LOG_WARNING, "warning: AdvCaptivePortalAPI specified twice for interface "
+					"%s in %s, line %d", iface->props.name, filename, num_lines);
 
 				free(iface->AdvCaptivePortalAPI);
 				iface->AdvCaptivePortalAPI = NULL;
